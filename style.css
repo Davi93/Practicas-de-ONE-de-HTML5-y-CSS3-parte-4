@@ -1,0 +1,322 @@
+body{
+    font-family: 'Montserrat', sans-serif;}
+
+header{
+    background-color: rgb(204, 204, 204);
+    padding: 20px 0;
+}
+
+.nave{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0; 
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(0, 157, 168); 
+    text-decoration: underline;
+}
+
+/*Inicio style pg-web-home*/
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    background: #fefefe;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+    color: rgb(0,0,0);
+}
+
+.principal p{
+    margin: 0 0 1em;
+
+}
+
+.principal strong{
+    font-weight: bold;
+
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conte{
+    width: 940px;
+    margin: 0 auto;
+      
+}
+
+.diferenciales{
+    background: #888888;
+    padding: 3em 0;
+    
+}
+
+.contenido-dif{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.dif-list{ 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imag-dif{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px black;
+}
+
+.imag-dif:hover{
+    opacity: 30%;
+
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+
+
+
+/*Final style pg-web-home*/
+
+
+/*Inicio style pg-web-prod*/
+
+.prod{
+    width: 940px; 
+    margin: 0 auto; 
+    padding: 50px; 
+}
+
+.prod li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+ }
+
+ .prod li:hover{
+   border-color: rgb(0, 157, 168); 
+ }
+
+ .prod li:active{ /* demarca de otro colo cuando se hace click o se selecciona*/
+    border-color: rgb(89, 0, 255);
+ }
+
+ .prod h2{
+    font-size: 30px;
+    font-weight: bold; 
+ }
+
+ .prod li:hover h2{ /* cambia el tamaño ded las letras*/
+    font-size: 33px;
+ }
+
+ .prod-descripcion{
+    font-size: 18PX;
+ }
+
+ .prod-precio{
+    font-size: 20PX;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+
+/*Final style pg-web-prod*/
+
+
+/*Inicio style pg-web-contact*/
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid rgb(10, 134, 150);
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+    transition: 0.7s all;
+    transition-property: background-color, color;
+    text-shadow: 2px 5px 5px rgb(1, 88, 110);
+    cursor: pointer;
+}
+
+.enviar:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 134, 150);
+    transform: scale(1.20);
+    
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td ,th{
+    border: 2px solid black;
+    padding: 8px 15px;
+}
+
+/*Final style pg-web-contact*/
+
+footer{
+    text-align: center;
+    background:url(imagenes/bg.jpg);
+    padding: 40px; 
+ }
+
+.social-icon {
+    margin-bottom: 30px;
+}
+
+.social-item {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    display: inline;
+}
+
+.social-item img {
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+
+.social-item:hover img {
+    filter: grayscale(0);
+}
+
+ .copyright{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 20px;
+ }
+ 
+ /*Inicio Media Query*/
+
+ @media screen and (max-width:480px){
+    h1, form, input, label, .input-padron, table, legend, .checkbox, .enviar, thead, tbody{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .nave,.principal,.mapa-conte, .contenido-dif,.video, .prod, form{
+        width: auto;
+    }
+
+    .dif-list, .imag-dif,.prod li{
+        width: 100%;
+    }
+
+    .input-padron{
+        display: inline;
+    }
+
+    thead, tbody{
+        display: inline-block;
+    }
+
+
+ }
